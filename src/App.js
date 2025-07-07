@@ -1,6 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
+import { CgWebsite } from "react-icons/cg";
 import "./index.css";
 import "./App.css"; // Import the new CSS file
 
@@ -42,6 +43,7 @@ export default function Portfolio() {
           <a href="https://github.com/jamilmrt/" className="hover:text-blue-400"><FaGithub /></a>
           <a href="https://www.linkedin.com/in/jamil-aktar-8a9566179/" className="hover:text-blue-400"><FaLinkedin /></a>
           <a href="mailto:rtk.sorry@gmail.com" className="hover:text-blue-400"><FaEnvelope /></a>
+          <a href="https://my-portfolio-one-chi-29.vercel.app/" className="hover:text-blue-400"><CgWebsite /></a>
         </div>
       </section>
 
